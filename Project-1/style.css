@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 165px;
+  background-color: #bcaaa4;
+}
+
+.box-1 {
+  width: 20.64%;
+  height: 100%;
+  background-color: #6d4c41;
+}
+
+.navbar {
+  background-color: #eeeeee;
+  width: 100%;
+  height: 96px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+
+a {
+  font-family: "Inter";
+  font-style: bold;
+  font-size: 36px;
+  line-height: 44px;
+  vertical-align: top;
+  margin: 50px;
+  color: #757575;
+  margin-right: 44px;
+}
+
+.home {
+  margin-top: 45x;
+  padding-top: 24px;
+  width: 100%;
+  height: 795px;
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+.home-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 64px;
+  line-height: 77px;
+  color: #3e2723;
+}
+
+.box-area {
+  padding: 44px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  row-gap: 38px;
+}
+
+.box {
+  width: 288px;
+  height: 291px;
+  background: linear-gradient(0deg, #607d8b, #607d8b),
+    linear-gradient(0deg, #607d8b, #607d8b),
+    linear-gradient(0deg, #607d8b, #44948a), #44948a;
+}
+
+.container-about {
+  width: 100%;
+  height: 452px;
+  background: #90a4ae;
+}
+
+.about-tittle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  color: #3e2723;
+}
+
+.about-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.services {
+  margin-top: 45x;
+  padding-top: 24px;
+  width: 100%;
+  height: 795px;
+  background-color: #eeeeee;
+  text-align: center;
+}
+
+.services-tittle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  color: #3e2723;
+}
+
+.services > .box-area {
+  grid-template-columns: auto auto auto auto;
+}
+
+.contact {
+  margin: 45px;
+  padding-top: 24px;
+  width: 95%;
+  height: 535px;
+  background: #bcaaa4;
+  text-align: center;
+}
+
+.contact-tittle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  color: #3e2723;
+}
+
+.form-area{
+    width: 25%;
+    padding-left: 40px;
+    text-align: left;
+    display: flex;
+}
+
+input{
+    width: 381px;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: #656565;
+    box-shadow: none;
+    border: none;
+}
+
+.message{
+    height: 157px;
+}
+
+.fname{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.send__button{
+    width: 100px;
+    color: white;
+}
